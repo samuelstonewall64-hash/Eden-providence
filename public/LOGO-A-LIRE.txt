@@ -1,0 +1,26 @@
+GROUPE SCOLAIRE EDEN PROVIDENCE — LOGO OFFICIEL
+
+Important :
+
+Je n'ai pas pu extraire directement le fichier image exact que tu as
+envoyé dans la conversation (aucun outil ne me permet de sauvegarder
+une pièce jointe telle quelle dans le projet).
+
+Pour que TON vrai logo (celui que tu as montré) s'affiche exactement
+partout sur le site (header, footer, loader, admin), fais ceci :
+
+1. Exporte/enregistre ton logo officiel en PNG (fond transparent de
+   préférence), par exemple depuis ton téléphone ou ton ordinateur.
+2. Renomme le fichier exactement :
+   logo-eden-providence.png
+3. Place ce fichier dans le dossier :
+   public/
+   (au même endroit que ce fichier texte)
+4. Redéploie le site (ou relance "npm run dev" en local).
+
+Dès que ce fichier existe, il est automatiquement utilisé partout,
+sans aucune autre modification de code nécessaire.
+
+Si ce fichier n'existe pas encore, le site affiche à la place une
+version vectorielle recréée à la main (logo-eden-providence.svg),
+qui sert uniquement de remplacement temporaire.

@@ -1,0 +1,51 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="48" fill="white"/>
+
+  <!-- Nuage contour bleu marine -->
+  <path
+    d="M175 566
+       C 100 566 46 508 46 436
+       C 46 366 96 310 162 302
+       C 158 286 156 269 156 252
+       C 156 143 246 55 358 55
+       C 452 55 531 118 552 205
+       C 590 154 651 121 720 121
+       C 826 121 913 202 924 305
+       C 936 302 949 300 962 300
+       C 1041 300 1105 362 1105 439
+       C 1105 516 1041 578 962 578
+       H 175
+       C 175 578 175 572 175 566 Z"
+    stroke="#0E2A7B"
+    stroke-width="15"
+    stroke-linejoin="round"
+  />
+
+  <!-- Texte GROUPE / SCOLAIRE -->
+  <text x="300" y="200" fill="#0E2A7B" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="600" letter-spacing="2">GROUPE</text>
+  <text x="285" y="262" fill="#F2CB2E" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="600" letter-spacing="1">SCOLAIRE</text>
+
+  <!-- Trois silhouettes se tenant la main -->
+  <g>
+    <circle cx="452" cy="352" r="24" fill="#C81E2C"/>
+    <path d="M312 392C346 418 393 424 452 420C502 417 549 423 592 445L560 465C520 451 480 447 442 451C382 457 338 452 300 431L312 392Z" fill="#C81E2C"/>
+    <path d="M412 410H466L490 566H444L412 410Z" fill="#C81E2C"/>
+    <path d="M398 566L430 470L462 471L482 566H398Z" fill="#C81E2C"/>
+  </g>
+  <g>
+    <circle cx="612" cy="372" r="20" fill="#C81E2C"/>
+    <path d="M520 420C556 438 585 446 612 446C640 446 672 438 710 418L726 444C686 470 648 484 612 484C572 484 534 471 500 452L520 420Z" fill="#C81E2C"/>
+    <path d="M588 396H634L651 548H616L588 396Z" fill="#C81E2C"/>
+    <path d="M578 548L606 476H635L655 548H578Z" fill="#C81E2C"/>
+  </g>
+  <g>
+    <circle cx="798" cy="298" r="24" fill="#0E2A7B"/>
+    <path d="M694 384C734 348 780 323 826 310C892 291 942 284 985 269L980 300C942 322 899 338 851 351C805 364 763 388 723 422L694 384Z" fill="#0E2A7B"/>
+    <path d="M772 328H822L852 598H802L772 328Z" fill="#0E2A7B"/>
+    <path d="M756 600L802 470L840 473L878 600H756Z" fill="#0E2A7B"/>
+  </g>
+
+  <!-- Texte EDEN Providence -->
+  <text x="230" y="655" fill="#C41022" font-family="Georgia, 'Times New Roman', serif" font-size="90" font-weight="700" font-style="italic" letter-spacing="1">EDEN</text>
+  <text x="470" y="655" fill="#C41022" font-family="'Segoe Script', 'Brush Script MT', cursive" font-size="98" font-style="italic">Providence</text>
+</svg>

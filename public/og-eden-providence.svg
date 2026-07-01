@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#081535"/>
+  <circle cx="188" cy="92" r="170" fill="#1B3FAF" fill-opacity="0.42"/>
+  <circle cx="1036" cy="112" r="150" fill="#D3132E" fill-opacity="0.28"/>
+  <circle cx="998" cy="560" r="196" fill="#F4D84E" fill-opacity="0.18"/>
+  <rect x="68" y="68" width="1064" height="494" rx="42" fill="white" fill-opacity="0.92"/>
+  <rect x="92" y="92" width="1016" height="446" rx="34" fill="url(#card)"/>
+  <path d="M183 334C148.206 334 120 305.794 120 271C120 236.206 148.206 208 183 208C190.447 208 197.561 209.296 204.105 211.731C202.12 204.458 201.083 196.81 201.083 188.917C201.083 139.287 241.287 99.0833 290.917 99.0833C336.468 99.0833 374.251 133.012 381.141 176.677C400.418 148.927 432.473 130.75 468.771 130.75C527.793 130.75 575.646 178.604 575.646 237.625C575.646 239.539 575.596 241.442 575.497 243.333C582.044 240.884 589.165 239.542 596.646 239.542C631.44 239.542 659.646 267.748 659.646 302.542C659.646 337.336 631.44 365.542 596.646 365.542H183V334Z" stroke="white" stroke-opacity="0.85" stroke-width="10"/>
+  <circle cx="304" cy="225" r="18" fill="#D3132E"/>
+  <path d="M248 258C286 276 323 280 360 277C386 275 415 278 442 289" stroke="#D3132E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M299 241L296 333" stroke="#D3132E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M284 333L299 287L314 333" stroke="#D3132E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="392" cy="244" r="14" fill="#D3132E"/>
+  <path d="M356 275C380 289 403 295 426 295C449 295 472 289 497 275" stroke="#D3132E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M392 258L392 334" stroke="#D3132E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M381 334L392 298L403 334" stroke="#D3132E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="485" cy="190" r="18" fill="white"/>
+  <circle cx="485" cy="190" r="18" fill="#0E2A7B"/>
+  <path d="M447 267C474 239 506 220 550 209" stroke="#0E2A7B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M485 208L490 341" stroke="#0E2A7B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M469 341L490 281L512 341" stroke="#0E2A7B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="713" y="206" fill="white" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="800">GROUPE SCOLAIRE</text>
+  <text x="713" y="274" fill="white" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="800">EDEN PROVIDENCE</text>
+  <text x="713" y="340" fill="#F4D84E" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">L'apprentissage commence ici</text>
+  <text x="112" y="432" fill="#E2E8F0" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="500">Un site scolaire premium, chaleureux et immersif,</text>
+  <text x="112" y="472" fill="#E2E8F0" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="500">pensé pour rassurer les familles et valoriser chaque parcours.</text>
+  <defs>
+    <linearGradient id="card" x1="92" y1="92" x2="1108" y2="538" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10224C"/>
+      <stop offset="1" stop-color="#1D3AA5"/>
+    </linearGradient>
+  </defs>
+</svg>

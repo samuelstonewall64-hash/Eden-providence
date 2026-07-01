@@ -1,0 +1,13 @@
+GROUPE SCOLAIRE EDEN PROVIDENCE
+L'apprentissage commence ici
+
+Document temporaire de téléchargement.
+
+Le document officiel des frais de scolarité n'est pas présent dans l'espace de travail actuel.
+La page Tarifs du site est déjà prête en HTML responsive pour accueillir les montants exacts dès intégration du document officiel.
+
+À compléter avec :
+- frais d'inscription ;
+- frais de réinscription ;
+- frais de scolarité par cycle ;
+- conditions et observations éventuelles.

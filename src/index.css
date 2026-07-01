@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --eden-blue: #0e2a7b;
+  --eden-red: #d3132e;
+  --eden-yellow: #f4d84e;
+  --eden-ink: #081535;
+  --eden-sky: #eef4ff;
+  --eden-blush: #fff4f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(14, 42, 123, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(211, 19, 46, 0.08), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(244, 216, 78, 0.18), transparent 28%),
+    linear-gradient(180deg, #ffffff 0%, #f8fbff 52%, #ffffff 100%);
+  color: #0f172a;
+  font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(244, 216, 78, 0.75);
+  color: var(--eden-ink);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    @apply outline-none;
+  }
+}
+
+@layer utilities {
+  .section-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-space {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-display {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  }
+
+  .glass-panel {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.68));
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    box-shadow: 0 24px 80px rgba(8, 21, 53, 0.12);
+  }
+
+  .glass-panel-dark {
+    background: linear-gradient(180deg, rgba(8, 21, 53, 0.64), rgba(8, 21, 53, 0.54));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+  }
+
+  .shadow-premium {
+    box-shadow: 0 24px 70px rgba(8, 21, 53, 0.12);
+  }
+
+  .eden-border {
+    border: 1px solid rgba(14, 42, 123, 0.1);
+  }
+
+  .bg-grid-soft {
+    background-image:
+      linear-gradient(rgba(14, 42, 123, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(14, 42, 123, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .bg-dot-soft {
+    background-image: radial-gradient(rgba(14, 42, 123, 0.16) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .gradient-border {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(14, 42, 123, 0.28), rgba(211, 19, 46, 0.22), rgba(244, 216, 78, 0.35));
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .button-focus {
+    @apply focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#0e2a7b];
+  }
+
+  .mask-fade-bottom {
+    mask-image: linear-gradient(to bottom, black 74%, transparent 100%);
+  }
+
+  .noise-overlay {
+    position: relative;
+  }
+
+  .noise-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.22) 0.6px, transparent 0.6px);
+    background-size: 12px 12px;
+    opacity: 0.18;
+    pointer-events: none;
+  }
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-floaty {
+  animation: floaty 8s ease-in-out infinite;
+}
+
+.animate-floaty-delay {
+  animation: floaty 10s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.animate-pulse-soft {
+  animation: pulseSoft 4.5s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 18s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
